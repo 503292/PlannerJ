@@ -1,11 +1,11 @@
 {
     "home": {
-        "title": "Ласкаво просимо, Java hipster!",
+        "title": "Ласкаво просимо, в DoDo!",
         "subtitle": "Це ваша домашня сторінка",
         "logged": {
             "message": "Ви ввійшли як користувач \"{{username}}\"."
         },
-        "question": "Якщо у вас виникли питання по JHipster:",
+        "question": "Якщо у вас виникли питання по DoDo:",
         "link": {
             "homepage": "Домашня сторінка JHipster",
             "stackoverflow": "JHipster на Stack Overflow",
