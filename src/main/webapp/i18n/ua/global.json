@@ -1,6 +1,6 @@
 {
     "global": {
-        "title": "Planner",
+        "title": "DoDo Planner",
         "browsehappy": "Ваш браузер <strong>застарів</strong>. Будь ласка, <a href=\"http://browsehappy.com/?locale=ru\">оновіть ваш браузер</a>.",
         "menu": {
             "home": "Головна",
@@ -138,5 +138,11 @@
         "idexists": "Новий {{entityName}} не може мати даний ID",
         "idnull": "Invalid ID"
     },
-    "footer": "Це ваш футер"
+    "footer": {
+        "init": "Це ваш футер ча-ча-ча",
+        "contacts": "Контакти",
+        "support": "Підтримка"
+    }
+
+
 }
