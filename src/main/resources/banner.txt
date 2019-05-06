@@ -1,0 +1,10 @@
+
+  ${AnsiColor.GREEN}     ::::::::: ${AnsiColor.RED}      :::            :::        ::::    :::       ::::    :::       ::::::::::       :::::::::
+  ${AnsiColor.GREEN}    :+:    :+: ${AnsiColor.RED}     :+:          :+: :+:      :+:+:   :+:       :+:+:   :+:       :+:              :+:    :+:
+  ${AnsiColor.GREEN}   +:+    +:+  ${AnsiColor.RED}    +#+        +#++:++#++:    +#+ +:+ +#+       +#+ +:+ +#+       +#++:++#         +#++:++#:
+  ${AnsiColor.GREEN}  +#++:++#+    ${AnsiColor.RED}   +#+        +#+     +#+    +#+  +#+#+#       +#+  +#+#+#       +#+              +#+    +#+
+  ${AnsiColor.GREEN} +#+           ${AnsiColor.RED}  #+#        #+#     #+#    #+#   #+#+#       #+#   #+#+#       #+#              #+#    #+#
+  ${AnsiColor.GREEN}###            ${AnsiColor.RED} ########## ###     ###    ###    ####       ###    ####       ##########       ###    ###
+
+${AnsiColor.BRIGHT_BLUE}:: JSoft 🤓  :: Running Spring Boot ${spring-boot.version} ::
+:: https://www.jsoft.ua ::${AnsiColor.DEFAULT}

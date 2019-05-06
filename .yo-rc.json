@@ -1,0 +1,38 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "ua.jsoft.planner",
+            "nativeLanguage": "ua"
+        },
+        "jhipsterVersion": "5.8.2",
+        "applicationType": "monolith",
+        "baseName": "Planner",
+        "packageName": "ua.jsoft.planner",
+        "packageFolder": "ua/jsoft/planner",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": "spring-websocket",
+        "databaseType": "sql",
+        "devDatabaseType": "h2Disk",
+        "prodDatabaseType": "postgresql",
+        "searchEngine": "elasticsearch",
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": true,
+        "jwtSecretKey": "ZWQ4OTZiOTA2ZDdhYzBiMjA0MGVlMjg0M2ZiZWMwNjQ2NjRlNTU5ZDRiZDE2ZmU3ODU3ZjU3YjkxYWMzMzViOTUxNDU3MGRiNTQ4YTE0NmUyNWI4YzhmNGM4MmYyN2MwN2VkY2UwMDIxOGJiNDhlOTNjZDk0MGYyMWY0NzBiNWU=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": ["gatling", "cucumber", "protractor"],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": true,
+        "nativeLanguage": "ua",
+        "languages": ["ua", "en", "ru"]
+    }
+}

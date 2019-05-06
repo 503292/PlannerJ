@@ -1,0 +1,27 @@
+{
+    "plannerApp": {
+        "jobHistory": {
+            "home": {
+                "title": "Job Histories",
+                "createLabel": "Створити новий Job History",
+                "createOrEditLabel": "Створити чи редагувати Job History",
+                "search": "Знайти Job History"
+            },
+            "created": "Новий Job History створений з ідентифікатором {{ param }}",
+            "updated": "Job History оновлений з ідентифікатором {{ param }}",
+            "deleted": "Job History видалений з ідентифікатором {{ param }}",
+            "delete": {
+                "question": "Ви впевнені, що хочете видалити Job History {{ id }}?"
+            },
+            "detail": {
+                "title": "Job History"
+            },
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "language": "Language",
+            "job": "Job",
+            "department": "Department",
+            "employee": "Employee"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+version: '2'
+services:
+    planner-app:
+        image: planner
+        environment:
+            - _JAVA_OPTIONS=-Xmx512m -Xms256m
+            - SPRING_PROFILES_ACTIVE=prod,swagger
+            - SPRING_DATASOURCE_URL=jdbc:postgresql://planner-postgresql:5432/Planner
+            - JHIPSTER_SLEEP=10 # gives time for the database to boot before the application
+            - SPRING_DATA_JEST_URI=http://planner-elasticsearch:9200
+        ports:
+            - 8080:8080
+    planner-postgresql:
+        extends:
+            file: postgresql.yml
+            service: planner-postgresql
+    planner-elasticsearch:
+        extends:
+            file: elasticsearch.yml
+            service: planner-elasticsearch
